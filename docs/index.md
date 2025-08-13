@@ -8,8 +8,8 @@ hero:
   tagline: A way-of-life rooted in natural thinking, designed to help the next generation of tech users stand up and win against the big-tech landslide
   actions:
     - theme: brand
-      text: Markdown Examples
-      link: /markdown-examples
+      text: Introduction
+      link: /introduction
     - theme: alt
       text: API Examples
       link: /api-examples
