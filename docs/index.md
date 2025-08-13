@@ -8,7 +8,7 @@ hero:
   tagline: A way to approach technology rooted in natural thinking, designed to help the next generation of tech users stand up and win against the big-tech landslide.
   actions:
     - theme: brand
-      text: Introduction
+      text: The Why
       link: /introduction
     - theme: alt
       text: The Way

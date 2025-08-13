@@ -1,5 +1,5 @@
 
-# The Way of the Low Tech Monk
+# The Way: What is a "Low Tech Monk"
 
 ## ✋ 5 Symbols
 
