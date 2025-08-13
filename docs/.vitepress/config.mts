@@ -15,14 +15,14 @@ export default defineConfig({
       {
         text: 'Winsdom Literature',
         items: [
-          { text: 'Rationale', link: '/introduction' },
+          { text: 'The Why', link: '/introduction' },
           { text: 'The Way', link: '/the-way' }
         ]
       }
     ],
 
     socialLinks: [
-      { icon: 'github', link: 'https://github.com/vuejs/vitepress' }
+      { icon: 'github', link: 'https://github.com/shawnmurtagh/lowtechmonk-vitepress' }
     ]
   }
 })
