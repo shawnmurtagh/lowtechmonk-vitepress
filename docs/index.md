@@ -3,9 +3,9 @@
 layout: home
 
 hero:
-  name: 'My Awesome Project'
-  text: 'A VitePress Site'
-  tagline: My great project tagline
+  name: "lowtechmonk"
+  text: "cyber wisdom framework"
+  tagline: A way-of-life rooted in natural thinking, designed to help the next generation of tech users stand up and win against the big-tech landslide
   actions:
     - theme: brand
       text: Markdown Examples
@@ -22,3 +22,4 @@ features:
   - title: Feature C
     details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
 ---
+
