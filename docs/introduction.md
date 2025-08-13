@@ -1,30 +1,27 @@
-# The Circle and the Current: Why We Need a Cyber Wisdom Framework
+# Why We Need a Cyber Wisdom Framework
 
-There was a time when a tool was a stone in our hand, a bow in our grip, or a net in our calloused fingers.  
-We knew what it could do because we knew how it was made, and we knew the one who made it.  
+There was a time when a tool was a stone in our hand, a bow in our grip, or a net in our calloused fingers. We knew what it could do because we knew how it was made, and we knew the one who made it.  
 The danger was plain — a blade could cut us, a fire could burn — but both kept us alive.  
-The decision was ours,  
-and the weight of that decision sat in our chests like a stone we could feel.  
+The decision was ours, and the weight of that decision sat in our chests like a stone we could feel.  
 
-Today, the tools are invisible.  
+Today, the tools are hardly visible.  
 They arrive not with the sound of footsteps on the path,  
 but with a vibration in your pocket or a glow on your desk.  
 They ask for nothing but your attention.  
-They smile with their silver tongues,  
+They smile with their silver tongues tucked behind their teeth,  
 promising connection, productivity, and knowledge —  
 but they do not tell you what they take in return.  
 
 We need a way to see through this fog.  
 Not to reject all technology,  
-but to meet it in a way that keeps our circle whole.  
-We need cyber wisdom —  
-a set of roots deep in natural thinking,  
+but to face it in a way that keeps us centered on our true values.  
+We need deeper roots and natural thinking,  
 so that no matter how fast the river runs,  
 we do not lose our footing on the stones beneath.  
 
 ## The Three Circles
 
-### Self
+### ⚪ Self 
 
 The first fire you must tend is your own.
 If you do not guard your mind, you will mistake noise for truth.
@@ -36,7 +33,7 @@ A cyber wisdom framework gives you questions to ask before you let a new tool in
 
 Without such questions, you are no longer the hunter — you are the hunted.
 
-### Family
+### 🔵 Family 
 
 In a family, the circle is wider.
 A child’s eyes are quick to trust the bright colors, the smooth voices, the endless scroll.
@@ -52,7 +49,7 @@ Children learn not just from what we tell them,
 but from the boundaries we keep.
 When we choose with care, we teach them to do the same.
 
-### Community
+### 🟢 Community 
 
 It takes a village to raise a village: its survival depends on trust.
 Technology can strengthen that trust,
@@ -66,14 +63,6 @@ It asks: “Does this make us stronger?
 Does this keep our fire burning,  
 or does it slowly make us its slave?"  
 
-## The Way of the Low Tech Monk
+## A New Way
 
-### 5 Symbols
-
-The low tech monk uses five symbols to light our way.  
-
-<span style="color: #FF4500; font-weight: bold;">Fire</span> - meaning, purpose, human experience, that which provides warmth  
-<span style="color: #FFD700; font-weight: bold;">Circle</span> - family, friendship, relationships to all living things, as things enter the circle, we keep them on the outside until we are able to harness them to grow the fire  
-<span style="color: #708090; font-weight: bold;">Knife</span> - a tool, the potential to help and hurt, neutral  
-<span style="color: #8B4513; font-weight: bold;">Stone</span> - a memory, space imbued with time, a moment captured  
-<span style="color: #1E90FF; font-weight: bold;">Song</span> - an expression, an action, a way to celebrate what we have and invite the others
+We need a new eyes to see technology plainly again. We need a new way to imagine it, and a new set of practices to guide us. We need a cyber wisdom framework like the way of the low tech monk.
