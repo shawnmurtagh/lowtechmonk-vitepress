@@ -5,7 +5,7 @@ import topImage from '../../components/top-image.vue';
 
 # Fear Forgetting
 
-<topImage imagePath="../public/assets/pexels-khaydenarts-923167.jpg" alt="A person standing on a rock overlooking a foggy valley with mountains in the distance" />
+<topImage imagePath="../pexels-khaydenarts-923167.jpg" alt="A person standing on a rock overlooking a foggy valley with mountains in the distance" />
 
 What do I fear?
 

@@ -12,13 +12,12 @@ export default defineConfig({
   title: "lowtechmonk",
   description: "A cyber wisdom framework engineered to help the next generation of tech users stand up and win against the big-tech landslide",
   themeConfig: {
-    logo: '../public/assets/lowtechmonk.jpg',
+    logo: '../lowtechmonk.jpg',
     // https://vitepress.dev/reference/default-theme-config
     nav: [
       { text: 'Home', link: '/' },
       { text: 'Wisdom Literature', link: '/the-way' }
     ],
-
     sidebar: [
       {
         text: 'Getting Started',

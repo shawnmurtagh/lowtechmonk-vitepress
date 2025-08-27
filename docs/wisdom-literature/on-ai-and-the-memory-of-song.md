@@ -5,7 +5,7 @@ import topImage from '../../components/top-image.vue';
 
 # On AI Music and the Memory of Song
 
-<topImage imagePath="../public/assets/pexels-samandgos-709552.jpg" alt="a tranquil stream in a forest" />
+<topImage imagePath="../pexels-samandgos-709552.jpg" alt="a tranquil stream in a forest" />
 
 Music was given to us before words. The drum was thunder. The flute was wind through the bone. The voice was a cry, a prayer, a call across the valley. Music was not entertainment. It was how we remembered who we were.
 
