@@ -9,7 +9,7 @@ hero:
   actions:
     - theme: brand
       text: The Why
-      link: /introduction
+      link: /the-why
     - theme: alt
       text: The Way
       link: /the-way
