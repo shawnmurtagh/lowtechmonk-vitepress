@@ -16,7 +16,12 @@ export default defineConfig({
     // https://vitepress.dev/reference/default-theme-config
     nav: [
       { text: 'Home', link: '/' },
-      { text: 'Wisdom Literature', link: '/the-way' }
+      { text: 'Wisdom Literature', link: '/the-way' },
+      { text: 'Fables', 
+        items: [
+          { text: 'There are Giants in the Land (One)', link: '/fables/there-are-giants-in-the-land-1' },
+        ]  
+      }
     ],
     sidebar: [
       {
@@ -38,6 +43,12 @@ export default defineConfig({
             { text: 'On AI Music and the Memory of Song', link: '/wisdom-literature/on-ai-and-the-memory-of-song' },
             { text: 'The Chief Inside', link: '/wisdom-literature/the-chief-inside' },
             { text: 'The Low Tech Monk', link: '/wisdom-literature/the-way-of-the-low-tech-monk' }
+        ]
+      },
+      {
+        text: 'Fables',
+          items: [
+            { text: 'There are Giants in the Land I', link: '/fables/there-are-giants-in-the-land-1' },
         ]
       }
     ],
