@@ -1,4 +1,4 @@
-# Why We Need a Cyber Wisdom Framework
+# The Why: We Need a Cyber Wisdom Framework
 
 There was a time when a tool was a stone in our hand, a bow in our grip, or a net in our calloused fingers. We knew what it could do because we knew how it was made, and we knew the one who made it.  
 The danger was plain — a blade could cut us, a fire could burn — but both kept us alive.  
@@ -19,9 +19,11 @@ We need deeper roots and natural thinking,
 so that no matter how fast the river runs,  
 we do not lose our footing on the stones beneath.  
 
+To begin, we must envision our circles of trust.
+
 ## The Three Circles
 
-### ⚪ Self 
+### ⚪ Self
 
 The first fire you must tend is your own.
 If you do not guard your mind, you will mistake noise for truth.
@@ -33,15 +35,15 @@ A cyber wisdom framework gives you questions to ask before you let a new tool in
 
 Without such questions, you are no longer the hunter — you are the hunted.
 
-### 🔵 Family 
+### 🔵 Family
 
-In a family, the circle is wider.
-A child’s eyes are quick to trust the bright colors, the smooth voices, the endless scroll.
+In a family, the circle is wider. It is the closest circle of trust where we invite others, where bonds run deeper than bloodlines.  
+A child’s eyes are quick to trust the bright colors, the smooth voices, the endless scroll. But in a way, we are all like children, and we are not immune to the same lures.
 But trust given without wisdom is an open door for the friend and enemy alike.
 
 A cyber wisdom framework helps a family decide together:
 When do we welcome the tool into our home?
-When do we keep it outside the firelight?
+When do we keep it outside the circle?
 When do we say no — not because the thing is evil,
 but because we know we are not ready to carry its weight?
 
