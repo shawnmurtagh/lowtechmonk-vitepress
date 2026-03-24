@@ -7,39 +7,55 @@ import topImage from '../../components/top-image.vue';
 
 <topImage imagePath="../pexels-samandgos-709552.jpg" alt="a tranquil stream in a forest" />
 
-Music was given to us before words. The drum was thunder. The flute was wind through the bone. The voice was a cry, a prayer, a call across the valley. Music was not entertainment. It was how we remembered who we were.
+Music came before our theories about music.
+Before the classroom, before the market, before the machine, there was the drum, the voice, the hand clapping time against the dark.
+Song was how we carried memory when the trail was long.
+Song was how we told the living who they were.
 
-Now, they have made a machine that sings. It can mimic the notes, the rhythm, the style of any song ever sung. It can create new music faster than the mind can think. But you ask: should we use it? Should we let it into our circle?
+Now a machine can sing.
+It can imitate style, fold voices together, and produce endless sound without rest.
+That is the question before us: not whether it can sing, but what kind of hearing we will keep if we let it speak for us too often.
 
-## What the Machine Cannot Hear
+## Preservation
 
-AI does not hear music. It processes pattern. It does not feel the tremble in a mother’s voice as she sings her child to sleep. It does not know the pain behind a blues chord or the joy in a fiddle at harvest time. It cannot weep, and so it cannot compose—not truly.
+AI can be useful when it helps us hold on to what time would otherwise take away.
+It can help archive old recordings, restore damaged voices, and bring forgotten songs back into reach.
+If a mountain hymn survives because a machine helped carry it across generations, then the tool has served the circle.
 
-When we forget this, we forget that music is not sound. It is story. A machine can imitate a song, but it cannot know why the song was sung. And without why, a song is an echo, not a voice.
+But preservation is not the same as possession.
+A song saved from dust should still belong to the people who made it, and the people who still need to sing it.
+If the machine becomes the only mouth left to remember, then memory has been stored but not lived.
 
-## The Right Use of AI in Music
+## Creativity
 
-If you choose to use this tool, ask not only what it can do, but what it should do. Ask:
+A living song is more than output.
+It is hunger, hesitation, breath, and risk.
+It is the pause before the first note and the tremble in the second one.
+AI can suggest patterns, but it does not know what it means to offer a song as prayer, grief, welcome, or defiance.
 
-### Does this tool help us remember or forget?
+If AI opens a path for a musician to try something new, then let it be a lantern.
+If it begins deciding what is tasteful, popular, or worthy before the human has spoken, then it has stepped out of its place.
+The maker should remain the maker.
+The tool should remain the tool.
 
-Can it preserve dying songs, bring old melodies to new ears? Or does it replace living musicians with hollow sounds? If it becomes the source rather than the servant, it is no longer a tool. It is theft.
+## Sacred Process
 
-### Does it feed our curiosity or dull our hunger?
+Music was always made, not just consumed.
+The work of singing is part of the blessing.
+The practice is part of the memory.
+A voice learned over years carries more than sound; it carries discipline, family, and the shape of a life.
 
-If AI music leads you to discover new cultures, ancient forms, forgotten instruments — then it walks beside you. If it becomes a stream of endless, effortless songs, it will numb your taste, like over-sweetened food. True music challenges; it does not just please.
+That is why the making matters as much as the hearing.
+If AI strips away the struggle, the silence, the rough edges, and the small human imperfections, it may leave behind a cleaner object, but not necessarily a truer one.
+A song made without sacrifice can still be pleasant.
+It may not be holy.
 
-### Is the process still sacred?
-
-Music was always made, not just consumed. The making is holy. The struggle, the silence between notes, the imperfections, these are the gems on the necklace. If AI robs us of the act of creation, we become listeners only, not makers. And a people who do not make their own songs become strangers to themselves.
-
-## Evolving Without Erasing
-
-Culture must change. A frozen song is a dead one. But change must come with memory. If we let AI guide our taste, it will lead us in circles, feeding us only what pleases us, never what tests us. True culture walks the knife’s edge, honoring the old while dreaming the new.
-
-The danger is not the machine’s voice. It is the silence of our own. Use this tool, if you must, but do not let it become your bard, your elder, your teacher. Let it be the flint, but you strike the spark.
-
-Remember: a song made without struggle is a song without soul. And a people who forget to sing with their own breath will forget they are alive.
+So use the machine with care.
+Let it preserve what would otherwise be lost.
+Let it assist what a human still chooses.
+But do not let it become the elder, the bard, or the breath behind the song.
+Let it be flint.
+We still strike the spark.
 
 <br/>
 <ShawnBio />
