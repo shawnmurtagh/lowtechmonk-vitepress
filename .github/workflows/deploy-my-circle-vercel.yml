@@ -1,0 +1,74 @@
+name: Deploy my-circle to Vercel
+
+on:
+  workflow_dispatch:
+    inputs:
+      environment:
+        description: "Vercel environment to deploy"
+        required: true
+        type: choice
+        default: preview
+        options:
+          - preview
+          - production
+      alias:
+        description: "Optional subdomain alias to attach after deploy"
+        required: false
+        type: string
+        default: ""
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: apps/my-circle
+    env:
+      # Required GitHub secrets:
+      # - VERCEL_TOKEN
+      # - VERCEL_ORG_ID
+      # - VERCEL_PROJECT_ID
+      VERCEL_TOKEN: ${{ secrets.VERCEL_TOKEN }}
+      VERCEL_ORG_ID: ${{ secrets.VERCEL_ORG_ID }}
+      VERCEL_PROJECT_ID: ${{ secrets.VERCEL_PROJECT_ID }}
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+          cache: npm
+          cache-dependency-path: apps/my-circle/package-lock.json
+
+      - name: Install Vercel CLI
+        run: npm install -g vercel@latest
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Pull Vercel environment
+        run: vercel pull --yes --environment=${{ inputs.environment }} --token="$VERCEL_TOKEN"
+
+      - name: Build application
+        run: vercel build --token="$VERCEL_TOKEN"
+
+      - name: Deploy application
+        id: deploy
+        shell: bash
+        run: |
+          if [ "${{ inputs.environment }}" = "production" ]; then
+            deploy_output=$(vercel deploy --prebuilt --prod --token="$VERCEL_TOKEN")
+          else
+            deploy_output=$(vercel deploy --prebuilt --token="$VERCEL_TOKEN")
+          fi
+
+          echo "$deploy_output"
+          deploy_url=$(echo "$deploy_output" | tail -n 1)
+          echo "url=$deploy_url" >> "$GITHUB_OUTPUT"
+
+      - name: Attach alias
+        if: ${{ inputs.alias != '' }}
+        run: vercel alias set "${{ steps.deploy.outputs.url }}" "${{ inputs.alias }}" --token="$VERCEL_TOKEN"
