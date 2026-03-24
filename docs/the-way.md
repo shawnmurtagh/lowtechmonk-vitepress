@@ -6,7 +6,7 @@
 The low tech monk uses five symbols to re-imagine our relationship to technology.  
 
 <span style="color: #FF4500; font-weight: bold;">🔥 Fire</span> - meaning, purpose, human experience, that which provides warmth  
-<span style="color: #FFD700; font-weight: bold;">🟡 Circle</span> - family, friendship, relationships to all living things, as things enter the circle, we keep them on the outside until we are able to harness them to grow the fire  
+<span style="color: #FFD700; font-weight: bold;">🟡 Circle</span> - family, friendship, community, and relationships to all things
 <span style="color: #708090; font-weight: bold;">🗡️ Knife</span> - a tool, the potential to help and hurt, neutral  
 <span style="color: #8B4513; font-weight: bold;">🪨 Stone</span> - a memory, space imbued with time, a moment captured  
 <span style="color: #1E90FF; font-weight: bold;">🎵 Song</span> - an expression, an action, a way to celebrate what we have and invite the others
