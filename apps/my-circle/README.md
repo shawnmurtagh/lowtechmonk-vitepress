@@ -1,6 +1,6 @@
-# MyCircle Radar App
+# MyCircle App
 
-Standalone Vue + Vite prototype inspired by Thoughtworks Technology Radar.
+Standalone Vue + Vite prototype for the Low Tech Monk circle.
 
 ## Run
 
@@ -17,6 +17,9 @@ npm run build
 
 ## Notes
 
-- Rings: Inner (Adopt), Middle (Trial), Outer (Assess)
-- Quadrants: Knives, Stones, Songs
+- Zones: Fire, Inner, Trying, Thinking
+- Images:
+  - Songs: practices that express our values
+  - Stones: memories that ground us
+  - Tools: tools and technologies we use
 - Prototype is static and read-only for now
