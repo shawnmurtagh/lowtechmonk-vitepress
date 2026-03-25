@@ -1,30 +1,41 @@
+# The Way: What Is a Low Tech Monk?
 
-# The Way: What is a "Low Tech Monk"?
+## Five Symbols
 
-## ✋ 5 Symbols
+The low tech monk uses five symbols to re-imagine our relationship to technology.
 
-The low tech monk uses five symbols to re-imagine our relationship to technology.  
+- `Fire` means purpose, human experience, and the source of warmth and meaning.
+- `Circle` means family, friendship, community, and the relationships that hold a life together.
+- `Tool` means a technology or instrument we use. In the product interface, we use `tools` as the plain-language term. In the essays, the older poetic image of the knife may still appear.
+- `Stone` means a memory that grounds us, a marker shaped by time and trust.
+- `Song` means a practice that expresses our values through word, ritual, celebration, and repeated action.
 
-<span style="color: #FF4500; font-weight: bold;">🔥 Fire</span> - meaning, purpose, human experience, that which provides warmth  
-<span style="color: #FFD700; font-weight: bold;">🟡 Circle</span> - family, friendship, community, and relationships to all things
-<span style="color: #708090; font-weight: bold;">🗡️ Knife</span> - a tool, the potential to help and hurt, neutral  
-<span style="color: #8B4513; font-weight: bold;">🪨 Stone</span> - a memory, space imbued with time, a moment captured  
-<span style="color: #1E90FF; font-weight: bold;">🎵 Song</span> - an expression, an action, a way to celebrate what we have and invite the others
+## Plain Definitions
 
-## ✋ 5 Practices
+When these images appear in the application, they should be read plainly:
 
-The low tech monk follows five practices to grow our cyber wisdom garden.
+- `Songs` are practices that express our values.
+- `Stones` are memories that ground us.
+- `Tools` are tools and technologies we use.
 
-🧘 Digital Rest - **Embrace** the pleasure of habitual disconnection, **Avoid** digital fatigue and burnout  
-🔰 Digital Initiation - **Embrace** technology incrementally, **Avoid** mindless whole-sale adoption  
-🧼 Digital Purity- **Embrace** single purpose technology usage, **Avoid** multi purpose as a norm  
-👐 Digital Openness- **Embrace** ongoing conversations about technology, **Avoid** assumptions and uncertainty  
-⚖️ Digital Balance- **Embrace** a digital wisdom framework, **Avoid** the goal of being tech-savvy  
+The symbolic language remains part of the wider Low Tech Monk writing, but the product should not make people guess what the images mean.
 
-## 🧗 The Hard Part
+## Five Practices
 
-You will have to think, and to do that you will have to slow down.  
-You will have to ask questions, and to do that you will have to listen.  
-You will have to be honest, and to do that you will have to be vulnerable.  
+The low tech monk follows five practices to grow cyber wisdom.
 
-Are you ready?  
+- `Digital Rest`: Embrace the pleasure of habitual disconnection. Avoid digital fatigue and burnout.
+- `Digital Initiation`: Embrace technology incrementally. Avoid mindless wholesale adoption.
+- `Digital Purity`: Embrace single-purpose technology usage. Avoid multipurpose sprawl as a norm.
+- `Digital Openness`: Embrace ongoing conversations about technology. Avoid assumptions and uncertainty.
+- `Digital Balance`: Embrace a digital wisdom framework. Avoid making tech-savviness the goal.
+
+## The Hard Part
+
+You will have to think, and to do that you will have to slow down.
+
+You will have to ask questions, and to do that you will have to listen.
+
+You will have to be honest, and to do that you will have to be vulnerable.
+
+Are you ready?
