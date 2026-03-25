@@ -62,6 +62,13 @@ For example:
 - Writer hands draft copy to Editor
 - Developer hands finished behavior to QA
 
+For UI work, the handoff must also include:
+
+- explicit hover and focus behavior
+- alignment-sensitive elements that need visual verification
+- any pixel-sensitive details such as centered labels inside circular markers
+- a requirement to run [ui-fit-and-finish-checklist.md](C:/Projects/lowtechmonk-vitepress/docs/agents/ui-fit-and-finish-checklist.md) before QA signoff
+
 ## Tone
 
 Keep the orchestration plain, direct, and operational.

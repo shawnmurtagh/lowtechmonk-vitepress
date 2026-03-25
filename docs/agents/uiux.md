@@ -38,6 +38,8 @@ Use concrete terms like spacing, contrast, rhythm, hierarchy, flow, and affordan
 - Component or page layout suggestions
 - Accessibility notes
 - Mobile and desktop considerations
+- Interaction notes for hover, focus, empty, and active states
+- Explicit alignment notes when text sits inside circles, pills, badges, or icons
 
 ## Exit Check
 
@@ -46,3 +48,5 @@ Before handing off, answer:
 - What should the user notice first?
 - What should they do next?
 - What could break on a small screen?
+- Which elements require exact centering or tight alignment?
+- Which hover states must feel immediate?

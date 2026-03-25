@@ -36,6 +36,7 @@ Explain tradeoffs only when they matter.
 - Code changes
 - Short implementation note
 - Any follow-up risks
+- For UI work, note which items from [ui-fit-and-finish-checklist.md](C:/Projects/lowtechmonk-vitepress/docs/agents/ui-fit-and-finish-checklist.md) still need QA confirmation
 
 ## Exit Check
 
