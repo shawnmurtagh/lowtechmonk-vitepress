@@ -1,8 +1,10 @@
 import { defineConfig } from 'vitepress'
+import tailwindcss from '@tailwindcss/vite'
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
   vite: {
+    plugins: [tailwindcss()],
     resolve: {
       alias: {
         '@components': '/components', // Example alias for components directory
@@ -16,7 +18,16 @@ export default defineConfig({
     // https://vitepress.dev/reference/default-theme-config
     nav: [
       { text: 'Home', link: '/' },
-      { text: 'Wisdom Literature', link: '/the-way' },
+      {
+        text: 'Wisdom Literature',
+        items: [
+          { text: 'Fear Forgetting', link: '/wisdom-literature/fear-forgetting' },
+          { text: 'The Circle of Trust', link: '/wisdom-literature/the-circle-of-trust' },
+          { text: 'On AI Music and the Memory of Song', link: '/wisdom-literature/on-ai-and-the-memory-of-song' },
+          { text: 'The Chief Inside', link: '/wisdom-literature/the-chief-inside' },
+          { text: 'The Low Tech Monk', link: '/wisdom-literature/the-way-of-the-low-tech-monk' }
+        ]
+      },
       { text: 'Fables', 
         items: [
           { text: 'There are Giants in the Land (One)', link: '/fables/there-are-giants-in-the-land-1' },

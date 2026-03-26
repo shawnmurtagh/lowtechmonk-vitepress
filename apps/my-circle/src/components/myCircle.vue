@@ -1,6 +1,6 @@
 <template>
   <div class="radar-wrap">
-    <svg viewBox="0 0 860 860" class="radar" role="img" aria-label="Low Tech Monk circle">
+    <svg viewBox="0 0 720 720" class="radar" role="img" aria-label="Low Tech Monk circle">
       <defs>
         <radialGradient id="fireGlow" cx="50%" cy="50%" r="55%">
           <stop offset="0%" stop-color="#fff0bf" stop-opacity="1" />
@@ -74,8 +74,8 @@
       <text
         v-for="quadrant in quadrants"
         :key="quadrant.name"
-        :x="pointAt(quadrant.centerAngle, radii.thinking + 48).x"
-        :y="pointAt(quadrant.centerAngle, radii.thinking + 48).y"
+        :x="pointAt(quadrant.centerAngle, radii.thinking + 26).x"
+        :y="pointAt(quadrant.centerAngle, radii.thinking + 26).y"
         class="quadrant-label"
       >
         {{ quadrant.name }}
@@ -115,14 +115,21 @@
 import { computed, reactive } from 'vue'
 import { flames, quadrants, stones } from '../data/myCircleData'
 
+const props = defineProps({
+  visibleGroups: {
+    type: Object,
+    required: true,
+  },
+})
+
 const emit = defineEmits(['select-item'])
 
-const center = 430
+const center = 360
 const radii = {
   fire: 94,
-  inner: 176,
-  trying: 244,
-  thinking: 312,
+  inner: 172,
+  trying: 236,
+  thinking: 290,
 }
 
 const quadrantLayout = [
@@ -151,10 +158,16 @@ const tooltip = reactive({
   item: null,
 })
 
+const visibleFlames = computed(() => (props.visibleGroups.flames ? flames : []))
+const visibleStones = computed(() => (props.visibleGroups.stones ? stones : []))
+const visibleQuadrants = computed(() =>
+  quadrants.filter((quadrant) => props.visibleGroups[quadrant.key]),
+)
+
 const positionedBlips = computed(() => {
   const occupied = []
   const stonesPlaced = placeItems(
-    stones,
+    visibleStones.value,
     occupied,
     (item, index, attempt) => {
       const baseAngle = -150 + index * 100
@@ -169,7 +182,7 @@ const positionedBlips = computed(() => {
   )
 
   const flamesPlaced = placeItems(
-    flames,
+    visibleFlames.value,
     occupied,
     (item, index, attempt) => ({
       ...item,
@@ -182,7 +195,7 @@ const positionedBlips = computed(() => {
     13,
   )
 
-  const quadrantItemsPlaced = quadrants.flatMap((quadrant) => {
+  const quadrantItemsPlaced = visibleQuadrants.value.flatMap((quadrant) => {
     const layout = quadrantLayout.find((entry) => entry.key === quadrant.key)
 
     return placeItems(
@@ -316,7 +329,7 @@ function updateTooltipPosition(event) {
 
 .radar {
   width: 100%;
-  min-width: 620px;
+  min-width: 520px;
   height: auto;
   border-radius: 18px;
   background:
@@ -394,7 +407,7 @@ function updateTooltipPosition(event) {
 }
 
 .blip.tools {
-  fill: #f97316;
+  fill: #22c55e;
 }
 
 .blip.songs {
