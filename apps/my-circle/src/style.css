@@ -60,7 +60,7 @@ body {
   border: 1px solid #2a3042;
   border-radius: 14px;
   background: linear-gradient(180deg, rgba(15, 23, 42, 0.96) 0%, rgba(17, 24, 39, 0.94) 100%);
-  padding: 0.95rem;
+  padding: 0.8rem;
 }
 
 .panel-header {
@@ -79,27 +79,37 @@ body {
   font-size: 0.84rem;
 }
 
-.toggle-row {
-  display: flex;
-  flex-wrap: wrap;
+.toggle-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
   gap: 0.5rem;
-  margin-bottom: 0.9rem;
+  margin-bottom: 0.75rem;
 }
 
 .toggle-chip {
   display: inline-flex;
   align-items: center;
+  justify-content: center;
   gap: 0.35rem;
+  min-height: 2.2rem;
   border: 1px solid #334155;
   border-radius: 999px;
-  padding: 0.35rem 0.6rem;
+  padding: 0.35rem 0.65rem;
   background: #0f172a;
   color: #e2e8f0;
-  font-size: 0.82rem;
+  font-size: 0.8rem;
+  transition: background-color 120ms ease, border-color 120ms ease, color 120ms ease, transform 120ms ease;
+}
+
+.toggle-chip--active {
+  border-color: #f59e0b;
+  background: rgba(245, 158, 11, 0.14);
+  color: #fff7ed;
 }
 
 .toggle-chip input {
   accent-color: #f59e0b;
+  margin: 0;
 }
 
 .legend-grid {
@@ -109,16 +119,14 @@ body {
   margin-top: 1rem;
 }
 
-.legend-item,
-.meaning-item {
+.legend-item {
   border: 1px solid #2a3042;
   border-radius: 10px;
   background: #0f172a;
   padding: 0.7rem 0.8rem;
 }
 
-.legend-label,
-.meaning-label {
+.legend-label {
   font-size: 0.78rem;
   color: #93a4be;
   text-transform: uppercase;
@@ -131,27 +139,15 @@ body {
   color: #f8fafc;
 }
 
-.meaning-grid {
-  display: grid;
-  gap: 0.55rem;
-}
-
-.meaning-value {
-  margin-top: 0.3rem;
-  color: #cbd5e1;
-  font-size: 0.88rem;
-  line-height: 1.45;
-}
-
 .item-list {
-  margin-top: 0.95rem;
+  margin-top: 0.35rem;
   display: grid;
-  gap: 0.95rem;
+  gap: 0.65rem;
 }
 
 .item-group {
   border-top: 1px solid #233047;
-  padding-top: 0.85rem;
+  padding-top: 0.6rem;
 }
 
 .item-group:first-child {
@@ -160,9 +156,9 @@ body {
 }
 
 .item-group-title {
-  margin: 0 0 0.55rem;
+  margin: 0 0 0.35rem;
   color: #f8fafc;
-  font-size: 0.92rem;
+  font-size: 0.84rem;
   letter-spacing: 0.04em;
   text-transform: uppercase;
 }
@@ -172,42 +168,123 @@ body {
   padding: 0;
   margin: 0;
   display: grid;
-  gap: 0.45rem;
+  gap: 0.3rem;
 }
 
 .item-row {
+  width: 100%;
+  border: 1px solid #233047;
+  border-radius: 10px;
+  background: #0b1220;
   display: grid;
-  grid-template-columns: 1.7rem minmax(0, 1fr);
-  gap: 0.55rem;
+  grid-template-columns: 1.5rem minmax(0, 1fr);
+  gap: 0.45rem;
   align-items: start;
+  padding: 0.45rem 0.5rem;
+  text-align: left;
+  color: inherit;
+  cursor: pointer;
 }
 
 .item-number {
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  width: 1.7rem;
-  height: 1.7rem;
+  width: 1.5rem;
+  height: 1.5rem;
   border-radius: 999px;
   background: #1e293b;
   color: #f8fafc;
-  font-size: 0.82rem;
+  font-size: 0.75rem;
   font-weight: 700;
+}
+
+.item-row:hover,
+.item-row:focus-visible {
+  border-color: rgba(245, 158, 11, 0.6);
+  background: rgba(15, 23, 42, 0.98);
+  outline: none;
 }
 
 .item-name {
   color: #f8fafc;
-  font-size: 0.9rem;
+  font-size: 0.84rem;
 }
 
 .item-meta {
   margin-top: 0.15rem;
   color: #94a3b8;
-  font-size: 0.78rem;
+  font-size: 0.72rem;
 }
 
 @media (max-width: 1024px) {
   .circle-layout {
     grid-template-columns: 1fr;
   }
+}
+
+@media (max-width: 640px) {
+  .toggle-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+.modal-backdrop {
+  position: fixed;
+  inset: 0;
+  z-index: 40;
+  display: grid;
+  place-items: center;
+  padding: 1rem;
+  background: rgba(2, 6, 23, 0.72);
+}
+
+.modal-card {
+  width: min(92vw, 460px);
+  border: 1px solid #334155;
+  border-radius: 14px;
+  background: linear-gradient(180deg, #111827 0%, #0b1220 100%);
+  padding: 1rem;
+  box-shadow: 0 28px 70px rgba(2, 6, 23, 0.5);
+}
+
+.modal-header {
+  display: flex;
+  align-items: start;
+  justify-content: space-between;
+  gap: 1rem;
+}
+
+.modal-type {
+  color: #fbbf24;
+  font-size: 0.74rem;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+}
+
+.modal-title {
+  margin: 0.2rem 0 0;
+  color: #f8fafc;
+  font-size: 1.15rem;
+}
+
+.modal-close {
+  border: 1px solid #334155;
+  border-radius: 999px;
+  background: #0f172a;
+  color: #e2e8f0;
+  padding: 0.4rem 0.7rem;
+  cursor: pointer;
+}
+
+.modal-meta {
+  margin-top: 0.75rem;
+  color: #94a3b8;
+  font-size: 0.8rem;
+}
+
+.modal-description {
+  margin: 0.65rem 0 0;
+  color: #e2e8f0;
+  line-height: 1.55;
 }

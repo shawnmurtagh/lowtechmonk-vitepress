@@ -31,9 +31,14 @@
         v-for="item in positionedFlames"
         :key="item.id"
         class="blip-group"
+        role="button"
+        tabindex="0"
         @mouseenter="showTooltip($event, item)"
         @mousemove="moveTooltip($event)"
         @mouseleave="hideTooltip"
+        @click="selectItem(item)"
+        @keydown.enter.prevent="selectItem(item)"
+        @keydown.space.prevent="selectItem(item)"
       >
         <circle :cx="item.x" :cy="item.y" r="13" class="blip flame" />
         <text :x="item.x" :y="item.y" class="blip-number">{{ item.number }}</text>
@@ -43,9 +48,14 @@
         v-for="item in positionedStones"
         :key="item.id"
         class="blip-group"
+        role="button"
+        tabindex="0"
         @mouseenter="showTooltip($event, item)"
         @mousemove="moveTooltip($event)"
         @mouseleave="hideTooltip"
+        @click="selectItem(item)"
+        @keydown.enter.prevent="selectItem(item)"
+        @keydown.space.prevent="selectItem(item)"
       >
         <circle :cx="item.x" :cy="item.y" r="12" class="blip stone" />
         <text :x="item.x" :y="item.y" class="blip-number dark">{{ item.number }}</text>
@@ -75,9 +85,14 @@
         v-for="item in positionedQuadrantItems"
         :key="item.id"
         class="blip-group"
+        role="button"
+        tabindex="0"
         @mouseenter="showTooltip($event, item)"
         @mousemove="moveTooltip($event)"
         @mouseleave="hideTooltip"
+        @click="selectItem(item)"
+        @keydown.enter.prevent="selectItem(item)"
+        @keydown.space.prevent="selectItem(item)"
       >
         <circle :cx="item.x" :cy="item.y" r="13" :class="['blip', item.groupKey]" />
         <text :x="item.x" :y="item.y" class="blip-number">{{ item.number }}</text>
@@ -99,6 +114,8 @@
 <script setup>
 import { computed, reactive } from 'vue'
 import { flames, quadrants, stones } from '../data/myCircleData'
+
+const emit = defineEmits(['select-item'])
 
 const center = 430
 const radii = {
@@ -279,6 +296,10 @@ function hideTooltip() {
   tooltip.visible = false
 }
 
+function selectItem(item) {
+  emit('select-item', item)
+}
+
 function updateTooltipPosition(event) {
   const bounds = event.currentTarget.ownerSVGElement.getBoundingClientRect()
   tooltip.x = event.clientX - bounds.left + 16
@@ -353,6 +374,10 @@ function updateTooltipPosition(event) {
 
 .blip-group {
   cursor: default;
+}
+
+.blip-group[role='button'] {
+  cursor: pointer;
 }
 
 .blip {

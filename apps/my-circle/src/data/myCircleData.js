@@ -5,6 +5,7 @@ function withNumbers(items, image) {
     ...item,
     number: index + 1,
     image,
+    description: item.description ?? item.summary ?? '',
   }))
 }
 

@@ -22,24 +22,28 @@
         "id": "warmth",
         "name": "Warmth",
         "summary": "People feel received, not managed.",
+        "description": "A steady warmth that helps people settle into the circle without performance or pressure. This is the kind of warmth that makes hard conversations possible because nobody feels pushed to defend themselves first.",
         "addedOn": "2026-03-10"
       },
       {
         "id": "light",
         "name": "Light",
         "summary": "The center makes reality easier to see.",
+        "description": "The kind of light that helps a family or community see what is actually happening instead of what they wish were happening. It gives enough clarity to name the next faithful step without pretending to solve everything at once.",
         "addedOn": "2026-03-11"
       },
       {
         "id": "attention",
         "name": "Attention",
         "summary": "We notice one another before we optimize a process.",
+        "description": "Attention held in common, where people can tell that they matter before any system or schedule does. It is a practice of noticing small signals early so care can arrive before a situation becomes a crisis.",
         "addedOn": "2026-03-12"
       },
       {
         "id": "hospitality",
         "name": "Hospitality",
         "summary": "The circle can widen without losing its shape.",
+        "description": "Hospitality that widens the circle without losing its center. It is the habit of making room for another chair, another voice, and another season of growth while still protecting what is sacred.",
         "addedOn": "2026-03-13"
       }
     ]
@@ -52,24 +56,28 @@
         "id": "founding-story-night",
         "name": "Founding Story Night",
         "summary": "Retelling how the group formed and what commitments were made.",
+        "description": "A remembered beginning that tells the group where it came from and why it was worth gathering in the first place. This kind of memory keeps the circle from drifting into forgetfulness or pretending it was always inevitable.",
         "addedOn": "2026-03-02"
       },
       {
         "id": "elder-oral-history",
         "name": "Elder Oral History",
         "summary": "Recorded conversations with elders about hard seasons and resilience.",
+        "description": "A recorded account of wisdom carried by older voices, especially the parts that only become valuable after the hard seasons arrive. These memories help the circle remember what endurance looks like when spoken by someone who has lived it.",
         "addedOn": "2026-03-04"
       },
       {
         "id": "memory-walk-map",
         "name": "Memory Walk Map",
         "summary": "A map of places where key events happened, with short stories attached.",
+        "description": "A map of places where important things happened, with enough story attached that the map becomes a shared memory instead of a blank diagram. It helps people walk the land with context, gratitude, and caution.",
         "addedOn": "2026-03-06"
       },
       {
         "id": "archive-box",
         "name": "Archive Box",
         "summary": "A physical and digital box for photos, letters, and turning points.",
+        "description": "A box for holding the traces of a community's life: letters, photos, notes, and other small artifacts that would otherwise disappear. It is not an archive for display only; it is a place where memory can be carried forward.",
         "addedOn": "2026-03-08"
       }
     ]
@@ -81,34 +89,38 @@
       "definition": "Tools and technologies we use.",
       "description": "Technologies that enable us.",
       "blips": [
-        {
-          "id": "community-sms-tree",
-          "name": "Community SMS Tree",
-          "ring": "inner",
-          "summary": "Simple text-message fan-out for urgent updates and coordination.",
-          "addedOn": "2026-03-15"
-        },
-        {
-          "id": "shared-calendar",
-          "name": "Shared Calendar",
-          "ring": "trying",
-          "summary": "A common schedule that keeps gatherings and responsibilities visible.",
-          "addedOn": "2026-03-17"
-        },
-        {
-          "id": "mesh-radio-kit",
-          "name": "Mesh Radio Kit",
-          "ring": "trying",
-          "summary": "Low-bandwidth communication backup for outages and emergencies.",
-          "addedOn": "2026-03-18"
-        },
-        {
-          "id": "local-knowledge-wiki",
-          "name": "Local Knowledge Wiki",
-          "ring": "thinking",
-          "summary": "A small searchable knowledge base for local practices and how-tos.",
-          "addedOn": "2026-03-20"
-        }
+      {
+        "id": "community-sms-tree",
+        "name": "Community SMS Tree",
+        "ring": "inner",
+        "summary": "Simple text-message fan-out for urgent updates and coordination.",
+        "description": "A simple communication path for urgent notices, reminders, and coordination when a community needs to reach people quickly. It should stay small, understandable, and dependable rather than trying to become a full system.",
+        "addedOn": "2026-03-15"
+      },
+      {
+        "id": "shared-calendar",
+        "name": "Shared Calendar",
+        "ring": "trying",
+        "summary": "A common schedule that keeps gatherings and responsibilities visible.",
+        "description": "A common schedule that helps gatherings, responsibilities, and shared rhythms stay visible. It is useful when people need one place to look for what matters next without hunting across too many tools.",
+        "addedOn": "2026-03-17"
+      },
+      {
+        "id": "mesh-radio-kit",
+        "name": "Mesh Radio Kit",
+        "ring": "trying",
+        "summary": "Low-bandwidth communication backup for outages and emergencies.",
+        "description": "A low-bandwidth backup for times when normal communication channels are weak, down, or unavailable. The value here is resilience: keeping the circle connected when the usual path is interrupted.",
+        "addedOn": "2026-03-18"
+      },
+      {
+        "id": "local-knowledge-wiki",
+        "name": "Local Knowledge Wiki",
+        "ring": "thinking",
+        "summary": "A small searchable knowledge base for local practices and how-tos.",
+        "description": "A small searchable place for local knowledge, so practical wisdom does not vanish when the person who remembers it is not in the room. It works best when people can add, correct, and retrieve grounded knowledge without friction.",
+        "addedOn": "2026-03-20"
+      }
       ]
     },
     {
@@ -117,34 +129,38 @@
       "definition": "Practices that express our values.",
       "description": "Things we do to put our values into practice.",
       "blips": [
-        {
-          "id": "weekly-circle",
-          "name": "Weekly Circle",
-          "ring": "inner",
-          "summary": "A standing weekly check-in where everyone speaks and listens.",
-          "addedOn": "2026-03-14"
-        },
-        {
-          "id": "shared-meal-ritual",
-          "name": "Shared Meal Ritual",
-          "ring": "inner",
-          "summary": "A meal rhythm that keeps stories, gratitude, and repair alive.",
-          "addedOn": "2026-03-16"
-        },
-        {
-          "id": "seasonal-service-day",
-          "name": "Seasonal Service Day",
-          "ring": "trying",
-          "summary": "A recurring day each season for practical care across the community.",
-          "addedOn": "2026-03-19"
-        },
-        {
-          "id": "conflict-repair-practice",
-          "name": "Conflict Repair Practice",
-          "ring": "thinking",
-          "summary": "A shared script and ritual for repairing trust after conflict.",
-          "addedOn": "2026-03-21"
-        }
+      {
+        "id": "weekly-circle",
+        "name": "Weekly Circle",
+        "ring": "inner",
+        "summary": "A standing weekly check-in where everyone speaks and listens.",
+        "description": "A weekly gathering where people speak plainly, listen carefully, and keep the thread of relationship alive. It is meant to be simple enough to sustain and regular enough to become part of the circle's memory.",
+        "addedOn": "2026-03-14"
+      },
+      {
+        "id": "shared-meal-ritual",
+        "name": "Shared Meal Ritual",
+        "ring": "inner",
+        "summary": "A meal rhythm that keeps stories, gratitude, and repair alive.",
+        "description": "A shared meal rhythm that turns eating into a practice of care, story, and belonging. The point is not the menu; it is the repeated act of making room for one another at the table.",
+        "addedOn": "2026-03-16"
+      },
+      {
+        "id": "seasonal-service-day",
+        "name": "Seasonal Service Day",
+        "ring": "trying",
+        "summary": "A recurring day each season for practical care across the community.",
+        "description": "A recurring day of practical service where people put values into action with their hands, not just their words. It gives a community a chance to convert intention into visible care.",
+        "addedOn": "2026-03-19"
+      },
+      {
+        "id": "conflict-repair-practice",
+        "name": "Conflict Repair Practice",
+        "ring": "thinking",
+        "summary": "A shared script and ritual for repairing trust after conflict.",
+        "description": "A shared way of repairing trust after conflict so the group can keep moving without pretending the hurt never happened. It gives structure to apology, listening, and restoration when relationships have been strained.",
+        "addedOn": "2026-03-21"
+      }
       ]
     }
   ]
