@@ -60,11 +60,15 @@ The tools we use to measure success can quietly change the meaning of success.
 The tools we use to protect our people can quietly watch them instead.
 
 A cyber wisdom framework in an organization  
-asks more than “Does this make us faster?”  
-It asks: “Does this make us stronger?  
+asks more than "Does this make us faster?"  
+It asks: "Does this make us stronger?  
 Does this keep our fire burning,  
 or does it slowly make us its slave?"  
 
 ## A New Way
 
 We need a new eyes to see technology plainly again. We need a new way to imagine it, and a new set of practices to guide us. We need a cyber wisdom framework like the way of the low tech monk.
+
+:::tip From Reading to Practice
+If this feels true to your life, the next step is not only to agree with it. It is to begin the practice. You can step into the app with [Flames](https://app.lowtechmonk.com/#/flames), or move first through [From Reading to Practice](/from-reading-to-practice).
+:::

@@ -11,3 +11,7 @@ Finding that fire is the first step to building a cyber wisdom framework. Once y
 If you were on the last moments of life with your family all gathered around, all listening, all longing for a memory and legacy to echo forth from that moment, what would you say? Don't shy away from death now while you have life enough to ponder this question. Imagine it. Light the fire.
 
 <fireVisual />
+
+:::tip Begin With Flames
+When you are ready to move from reflection into practice, step into the app and add your first [Flames](https://app.lowtechmonk.com/#/flames).
+:::

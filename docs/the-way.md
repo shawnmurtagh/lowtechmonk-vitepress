@@ -39,3 +39,7 @@ You will have to ask questions, and to do that you will have to listen.
 You will have to be honest, and to do that you will have to be vulnerable.
 
 Are you ready?
+
+:::tip Begin the Practice
+If this way makes sense to you, the next step is not only to agree with it. It is to see what it looks like in practice. Build your circle in the app, begin with [Flames](https://app.lowtechmonk.com/#/flames), and return here when you want to reflect on what the symbols mean.
+:::

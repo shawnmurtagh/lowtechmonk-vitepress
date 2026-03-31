@@ -18,6 +18,7 @@ export default defineConfig({
     // https://vitepress.dev/reference/default-theme-config
     nav: [
       { text: 'Home', link: '/' },
+      { text: 'Build Your Circle', link: 'https://app.lowtechmonk.com' },
       {
         text: 'Wisdom Literature',
         items: [
@@ -31,6 +32,7 @@ export default defineConfig({
       { text: 'Fables', 
         items: [
           { text: 'There are Giants in the Land (One)', link: '/fables/there-are-giants-in-the-land-1' },
+          { text: 'There are Giants in the Land (Two)', link: '/fables/there-are-giants-in-the-land-2' },
         ]  
       }
     ],
@@ -40,6 +42,7 @@ export default defineConfig({
         items: [
           { text: 'The Why', link: '/the-why' },
           { text: 'The Way', link: '/the-way' },
+          { text: 'From Reading to Practice', link: '/from-reading-to-practice' },
           { text: 'Your Journey', 
             items:[
               { text: 'Light your Fire', link: '/fire' }
@@ -60,6 +63,7 @@ export default defineConfig({
         text: 'Fables',
           items: [
             { text: 'There are Giants in the Land I', link: '/fables/there-are-giants-in-the-land-1' },
+            { text: 'There are Giants in the Land II', link: '/fables/there-are-giants-in-the-land-2' },
         ]
       }
     ],

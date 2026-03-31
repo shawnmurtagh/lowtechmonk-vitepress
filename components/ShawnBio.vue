@@ -1,17 +1,33 @@
 <template>
-  <bio
-    name="Shawn Murtagh"
-    description="Son. Husband. Father of 4. Programmer. Writer. Seeker of slow wisdom in a world gone mad with speed. Founder of Low Tech Monk."
-    image-path="../shawn-murtagh.jpg"
-  />
+  <div class="voice-signature">
+    <p class="voice-signature__line">
+      In the voice of
+      <a href="/at-the-edge-of-the-fire" class="voice-signature__link">Iron River</a>.
+    </p>
+  </div>
 </template>
 
-<script>
-import Bio from './bio.vue';
+<style scoped>
+.voice-signature {
+  margin: 32px 0 8px;
+  padding-top: 16px;
+  border-top: 1px solid rgba(148, 163, 184, 0.28);
+}
 
-export default {
-  components: {
-    Bio,
-  },
-};
-</script>
+.voice-signature__line {
+  margin: 0;
+  color: #94a3b8;
+  font-size: 0.95rem;
+  line-height: 1.7;
+}
+
+.voice-signature__link {
+  color: #fbbf24;
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+
+.voice-signature__link:hover {
+  color: #fcd34d;
+}
+</style>
